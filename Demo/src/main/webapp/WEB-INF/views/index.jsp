@@ -8,7 +8,6 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="css/bootstrap.css">
-<!-- 추가 -->
 <title>간단한 지도 표시하기</title>
 <script type="text/javascript"
 	src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=k6uwn1n1eo"></script>
@@ -16,9 +15,7 @@
 <body>
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<!-- 추가 -->
 	<script src="js/bootstrap.js"></script>
-	<!-- 추가 -->
 	
 	<nav class="navbar navbar-default">
 		<div class="navbar-header">
@@ -33,8 +30,8 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
-		<li><a href="#">메인</a></li>
-		<li><a href="#">절차</a></li>
+		<li class="active"><a href="index">홈</a></li>
+		<li><a href="process">푸드트럭 신청과정</a></li>
 		</ul>
 		</div>
 	</nav>
